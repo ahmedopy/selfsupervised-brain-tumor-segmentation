@@ -1,0 +1,9 @@
+# HeMIS + SSL (MIM) Fusion — BraTS 2021
+# ========================================
+# Requirements
+torch>=2.0.0
+torchvision
+nibabel          # NIfTI file loading
+numpy
+scipy
+tqdm
