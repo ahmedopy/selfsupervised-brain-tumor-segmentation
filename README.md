@@ -96,8 +96,6 @@ Brain Tumor Segmentation
 
 ---
 
----
-
 # 📊 Dataset
 
 This work uses the **Brain Tumor Segmentation (BraTS) 2021** dataset.
