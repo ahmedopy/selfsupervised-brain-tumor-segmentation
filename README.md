@@ -96,43 +96,6 @@ Brain Tumor Segmentation
 
 ---
 
-# 📂 Repository Structure
-
-```text
-📦 selfsup-brain-tumor-segmentation
-│
-├── README.md
-├── requirements.txt
-│
-├── configs/                  # Training and experiment configurations
-│
-├── models/
-│   └── hemis_ssl_model.py    # MIM-HeMIS architecture
-│
-├── datasets/
-│   └── brats_dataset.py      # BraTS dataset loader and preprocessing
-│
-├── training/
-│   ├── pretrain.py           # Self-supervised MIM pretraining
-│   └── finetune.py           # Segmentation fine-tuning
-│
-├── evaluation/
-│   ├── evaluate.py           # Quantitative evaluation
-│   ├── uncertainty.py        # Uncertainty analysis
-│   └── visualize.py          # Qualitative visualization scripts
-│
-├── utils/
-│   ├── losses.py
-│   ├── metrics.py
-│   ├── schedulers.py
-│   └── helpers.py
-│
-├── checkpoints/              # Saved model weights
-├── results/                  # Experimental outputs and plots
-├── figures/                  # Paper figures and visualizations
-└── notebooks/                # Exploratory analysis notebooks
-```
-
 ---
 
 # 📊 Dataset
